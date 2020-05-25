@@ -10,5 +10,8 @@
       {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
       {{ .Content }}
     </div>
+
+{{ partial "how-to" . }}
+
   </div>
 {{ end }}
